@@ -1,0 +1,40 @@
+/*  
+-webkit- // chrome
+-moz-  // firefox
+-ms- // IE
+-o- // opera
+*/
+body{
+    margin: 0;
+    padding: 0;
+    background: #aaa;
+
+}
+.content{
+   width: 100%;
+   max-width: 960px;
+   margin: auto;
+    
+}
+.flex-container {
+    background: #fff;
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
+    
+}
+
+.item {
+    height: 100px;
+   flex: 0 0 100px;
+    
+}
+.first {
+    background: green;
+}
+.second {
+    background: #00f;
+}
+.third {
+    background: red;
+}
+
